@@ -129,7 +129,7 @@ License URI:
       autoplaySpeed: 2000,
       slidesToShow: 3,
       dots: true,
-      arrows: false,
+      arrows: true,
       centerMode: true,
       centerPadding: "350px",
       responsive: [
@@ -169,6 +169,77 @@ License URI:
     });
   }
 
+  if ($(".team__slider").length > 0) {
+    $(".team__slider").slick({
+      autoplay: true,
+      autoplaySpeed: 2000,
+      slidesToShow: 4,
+      dots: true,
+      arrows: true,
+      centerMode: true,
+      centerPadding: "30px",
+      responsive: [
+        {
+          breakpoint: 1600,
+          settings: {
+            centerMode: true,
+            centerPadding: "40px",
+            slidesToShow: 4
+          }
+        },
+        {
+          breakpoint: 1199,
+          settings: {
+            centerMode: true,
+            centerPadding: "40px",
+            slidesToShow: 3
+          }
+        },
+        {
+          breakpoint: 991,
+          settings: {
+            centerMode: true,
+            centerPadding: "40px",
+            slidesToShow: 2
+          }
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            centerMode: true,
+            centerPadding: "30px",
+            slidesToShow: 1
+          }
+        }
+      ]
+    });
+  }
+  /*-----------------------------------------------------------------------------
+  services
+  -------------------------------------------------------------------------------*/
+  
+  // if ($(".team_slider_services").length > 0) {
+  //   $(".team_slider_services").slick({
+  //     autoplay: true,
+  //     autoplaySpeed: 2000,
+  //     slidesToShow: 3,
+  //     dots: true,
+  //     arrows: true,
+  //     centerMode: true,
+  //     centerPadding: "350px",
+  //     variableWidth: true,
+  //   });
+  // }
+  if ($(".team_slider_services").length > 0) {
+    $(".team_slider_services").owlCarousel({
+      loop:true,
+      margin:50,
+      autoplay:true,
+      autoplayTimeout:2000,
+      autoplayHoverPause:true,
+      autoWidth:true,
+    });
+  }
   /*------------------------------------------------------------------------------
     / 6. Slider Testimonial
     /------------------------------------------------------------------------------*/
@@ -320,6 +391,7 @@ License URI:
       margin: 30,
       nav: false,
       dots: false,
+      
       responsive: {
         0: {
           items: 1
@@ -333,6 +405,7 @@ License URI:
       }
     });
   }
+
 
   /*--------------------------------------------------------
     / 10. Search PopUp
@@ -399,14 +472,14 @@ License URI:
   $(window).on("scroll", function () {
     if ($(window).scrollTop() > 40) {
       $("#header").addClass("fixedHeader animated flipInX");
-      $("#logoImg").attr( "src","../images/Pixel Peak Logo 1-02.png");
-      $(".navLink").addClass("black");
-      $("#menuIcon").css("color", "#000")
+      // $("#logoImg").attr( "src","../images/Pixel Peak Logo 1-02.png");
+      // $(".navLink").addClass("black");
+      // $("#menuIcon").css("color", "#000")
     } else {
       $("#header").removeClass("fixedHeader animated flipInX");
-      $("#logoImg").attr( "src","../images/Pixel Peak Logo 4-02.png");
-      $(".navLink").removeClass("black")
-      $("#menuIcon").css("color", "#fff")
+      // $("#logoImg").attr( "src","../images/Pixel Peak Logo 4-02.png");
+      // $(".navLink").removeClass("black")
+      // $("#menuIcon").css("color", "#fff")
 
 
     }
