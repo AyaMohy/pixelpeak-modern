@@ -894,7 +894,7 @@
 .flipInX {
   -webkit-backface-visibility: visible !important;
   backface-visibility: visible !important;
-  animation-name: flipInX;
+  /* animation-name: flipInX; */
 }
 
 @keyframes flipInY {

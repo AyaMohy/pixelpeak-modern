@@ -1,633 +1,468 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>Meipaly - Fine One Page Parallax HTML5 Responsive Template</title>
-        <meta name="viewport" content="width=device-width">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Meipaly - Fine One Page Parallax HTML5 Responsive Template</title>
+    <meta name="viewport" content="width=device-width" />
 
-        <!-- Include All CSS here-->
-        <link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
-        <link rel="stylesheet" type="text/css" href="css/owl.carousel.css"/>
-        <link rel="stylesheet" type="text/css" href="css/owl.theme.css"/>
-        <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css"/>
-        <link rel="stylesheet" type="text/css" href="css/animate.css"/>
-        <link rel="stylesheet" type="text/css" href="css/magnific-popup.css"/>
-        <link rel="stylesheet" type="text/css" href="css/settings.css"/>
-        <link rel="stylesheet" type="text/css" href="css/slick.css"/>
-        <link rel="stylesheet" type="text/css" href="css/icons.css"/>
-        <link rel="stylesheet" type="text/css" href="css/preset.css"/>
-        <link rel="stylesheet" type="text/css" href="css/theme.css"/>
-        <link rel="stylesheet" type="text/css" href="css/responsive.css"/>
-        <link rel="stylesheet" type="text/css" href="css/presets/color1.css" id="colorChange"/>
-        <!-- End Include All CSS -->
+    <!-- Include All CSS here-->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="css/owl.carousel.css" />
+    <link rel="stylesheet" type="text/css" href="css/owl.theme.css" />
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/animate.css" />
+    <link rel="stylesheet" type="text/css" href="css/magnific-popup.css" />
+    <link rel="stylesheet" type="text/css" href="css/settings.css" />
+    <link rel="stylesheet" type="text/css" href="css/slick.css" />
+    <link rel="stylesheet" type="text/css" href="css/icons.css" />
+    <link rel="stylesheet" type="text/css" href="css/preset.css" />
+    <link rel="stylesheet" type="text/css" href="css/theme.css" />
+    <link rel="stylesheet" type="text/css" href="css/responsive.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="css/presets/color1.css"
+      id="colorChange"
+    />
+    <!-- End Include All CSS -->
 
-        <!-- Favicon Icon -->
-        <link rel="icon"  type="image/png" href="images/favicon.png">
-    </head>
-    <body>
-        <!-- Preloading -->
-        <div class="preloader text-center">
-            <div class="la-ball-circus la-2x">
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
+    <!-- Favicon Icon -->
+    <link rel="icon" type="image/png" href="images/favicon.png" />
+  </head>
+  <body>
+    <div class="preloader text-center">
+      <div class="la-ball-circus la-2x">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+
+    <header class="header_01" id="header">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-2 col-sm-3 col-md-3">
+            <div class="logo">
+              <a href="index.html"
+                ><img
+                  src="images/pixel-peak-logo--website-3.png"
+                  alt=""
+                  id="logoImg"
+                  style="max-width: 100px"
+              /></a>
             </div>
+          </div>
+          <div class="col-lg-8 col-sm-7 col-md-7">
+            <nav class="mainmenu text-center">
+              <ul>
+                <li class="menu-item-has-children">
+                  <a href="index.html" class="navLink white">home</a>
+                  
+                </li>
+                <li><a href="about.html" class="navLink white">About</a></li>
+                <li class="menu-item-has-children">
+                  <a href="services.html" class="navLink white">Services</a>
+                </li>
+                <li class="menu-item-has-children">
+                  <a href="portfolio.html" class="navLink white">Work</a>
+                </li>
+                <li class="menu-item-has-children">
+                  <a href="blog.html" class="navLink white">Blog</a>
+                </li>
+
+                <li>
+                  <a href="contact.html" class="navLink white">Contact</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="col-lg-2 col-sm-2 col-md-2">
+            <div class="navigator text-right">
+              <a
+                href="javascript:void(0);"
+                class="menu mobilemenu hidden-sm hidden-md hidden-lg hidden-xs"
+                ><i class="mei-menu"></i
+              ></a>
+              <a
+                id="open-overlay-nav"
+                class="menu hamburger"
+                href="javascript:void(0);"
+                ><i class="mei-menu" id="menuIcon"></i
+              ></a>
+            </div>
+          </div>
         </div>
-        <!-- Preloading -->
+      </div>
+    </header>
 
-        <!-- Header 01 -->
-        <header class="header_01" id="header">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-lg-2 col-sm-3 col-md-3">
-                        <div class="logo">
-                            <a href="index.html"><img src="images/Pixel Peak Logo 4-02.png" alt="" id="logoImg"/></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-8 col-sm-7 col-md-7">
-                        <nav class="mainmenu text-center">
-                            <ul>
-                                <li class="menu-item-has-children ">
-                                    <a href="index.html" class="navLink white">home</a>
-                                    <!-- <ul class="sub-menu">
-                                        <li><a href="index.html">Home 01</a></li>
-                                        <li><a href="index2.html">Home 02</a></li>
-                                        <li><a href="index3.html">Home 03</a></li>
-                                    </ul> -->
-                                </li>
-                                <li><a href="about.html" class="navLink white">About</a></li>
-                                <li class="menu-item-has-children"><a href="services.html" class="navLink white">Services</a>
-                                    <!-- <ul class="sub-menu">
-                                        <li><a href="services.html">Service</a></li>
-                                        <li><a href="service_detail.html">Service Detail</a></li>
-                                    </ul> -->
-                                </li>
-                                <li class="menu-item-has-children"><a href="portfolio.html" class="navLink white">Work</a>
-                                    <!-- <ul class="sub-menu">
-                                        <li><a href="portfolio.html">Portfolio v1</a></li>
-                                        <li><a href="portfolio2.html">Portfolio v2</a></li>
-                                        <li><a href="portfolio_detail.html">Portfolio Detail</a></li>
-                                    </ul> -->
-                                </li>
-                                <li class="menu-item-has-children"><a href="#" class="navLink white">Blog</a>
-                                    <!-- <ul class="sub-menu">
-                                        <li><a href="blog.html">Blog v1</a></li>
-                                        <li><a href="blog2.html">Blog v2</a></li>
-                                        <li><a href="blog3.html">Blog v3</a></li>
-                                        <li><a href="blog_single.html">Blog Single</a></li>
-                                    </ul> -->
-                                </li>
-                              
-                               
-                             
-                                <li>
-                                    <!-- <a href="contact.html">Contact</a> -->
-                                    <a href="contact.html" class="navLink white">Contact</a>
-                                </li>
-                            </ul>
-                        </nav>
-                    </div>
-                    <div class="col-lg-2 col-sm-2 col-md-2">
-                        <div class="navigator text-right">
-                            <!-- <a class="search searchToggler" href="javascript:void(0);"><i
-                                    class="mei-magnifying-glass"></i></a> -->
-                            <a href="javascript:void(0);" class="menu mobilemenu hidden-sm hidden-md hidden-lg hidden-xs"><i
-                                    class="mei-menu" ></i></a>
-                            <a id="open-overlay-nav" class="menu hamburger" href="javascript:void(0);"><i
-                                    class="mei-menu" id="menuIcon"></i></a>
-                        </div>
-                    </div>
-                </div>
+    <div class="popup popup__menu">
+      <a href="" id="close-popup" class="close-popup"></a>
+      <div class="container mobileContainer">
+        <div class="row">
+          <div class="col-lg-12 text-left">
+            <div class="logo2">
+              <a href="index.html"
+                ><img
+                  src="images/pixel-peak-logo--website-3.png"
+                  alt=""
+                  style="max-width: 100px"
+              /></a>
             </div>
-        </header>
-        <!-- Header 01 -->
-
-        <!-- Search From -->
-        <div class="searchFixed popupBG">
-            <div class="container-fluid">
-                <a href="" id="sfCloser" class="sfCloser"></a>
-                <div class="searchForms">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-8 col-lg-offset-2">
-                                <form method="post" action="#">
-                                    <input type="text" name="s" class="searchField" placeholder="Search here..."/>
-                                    <button type="submit"><i class="fa fa-search"></i></button>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
-        <!-- Search From -->
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="popup-inner">
+              <div class="dl-menu__wrap dl-menuwrapper">
+                <ul class="dl-menu dl-menuopen">
+                  <li class="">
+                    <a href="index.html">home</a>
+                  </li>
+                  <li><a href="about.html">About</a></li>
+                  <li class=""><a href="services.html">services</a></li>
+                  <li class="">
+                    <a href="portfolio.html">Work</a>
+                  </li>
+                  <li class="">
+                    <a href="blog.html">Blog</a>
+                  </li>
 
-        <!-- PopUP Menu -->
-        <div class="popup popup__menu">
-            <a href="" id="close-popup" class="close-popup"></a>
-            <div class="container mobileContainer">
-                <div class="row">
-                    <div class="col-lg-12 text-left">
-                        <div class="logo2">
-                            <a href="index.html"><img src="images/logo.png" alt=""></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="popup-inner">
-                            <div class="dl-menu__wrap dl-menuwrapper">
-                                <ul class="dl-menu dl-menuopen">
-                                    <li class="menu-item-has-children">
-                                        <a href="javascript:void(0);">home</a>
-                                        <ul class="dl-submenu">
-                                            <li><a href="index.html">Home 01</a></li>
-                                            <li><a href="index2.html">Home 02</a></li>
-                                            <li><a href="index3.html">Home 03</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="about.html">About</a></li>
-                                    <li class="menu-item-has-children"><a href="javascript:void(0);">services</a>
-                                        <ul class="dl-submenu">
-                                            <li><a href="services.html">Service</a></li>
-                                            <li><a href="service_detail.html">Service Detail</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="menu-item-has-children">
-                                        <a href="javascript:void(0);">Portfolio</a>
-                                        <ul class="dl-submenu">
-                                            <li><a href="portfolio.html">Portfolio v1</a></li>
-                                            <li><a href="portfolio2.html">Portfolio v2</a></li>
-                                            <li><a href="portfolio_detail.html">Portfolio Detail</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="menu-item-has-children">
-                                        <a href="javascript:void(0);">Blog</a>
-                                        <ul class="dl-submenu">
-                                            <li><a href="blog.html">Blog v1</a></li>
-                                            <li><a href="blog2.html">Blog v2</a></li>
-                                            <li><a href="blog3.html">Blog v3</a></li>
-                                            <li><a href="blog_single.html">Blog Single</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="contact.html">Contact</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-6 col-sm-6 col-xs-12 text-left">
-                        <ul class="footer__contacts text-left">
-                            <li>Phone: 666 888 000</li>
-                            <li>Email: needhelp@meipaly.com</li>
-                            <li>Address: 66 Broklyn Street, New York United States of America</li>
-                        </ul>
-                    </div>
-                    <div class="col-lg-6 col-sm-6 col-xs-12 col-xs-12">
-                        <div class="popUp_social text-right">
-                            <ul>
-                                <li><a href="#"><i class="fa fa-twitter"></i>Twitter</a></li>
-                                <li><a href="#"><i class="fa fa-facebook-square"></i>Facebook</a></li>
-                                <li><a href="#"><i class="fa fa-youtube-play"></i>Youtube</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+                  <li><a href="contact.html">Contact</a></li>
+                </ul>
+              </div>
             </div>
+          </div>
         </div>
-        <!-- PopUP Menu -->
-
-        <!-- Page Banner -->
-        <section class="pageBanner pageBanner_services">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="banner_content text-center">
-                            <!-- <h4><a href="#">home</a> - Services</h4>
-                            <h2>Services</h2> -->
-                        </div>
-                    </div>
-                </div>
+        <div class="row">
+          <div class="col-lg-6 col-sm-6 col-xs-12 text-left">
+            <ul class="footer__contacts text-left">
+              <li>Phone: 01006344123</li>
+              <li>Email: Info@pixelpeakstudio.net</li>
+              <li class="white">
+                Address: 34 Ibn Al Nafeis, Al Manteqah as Sadesah, Nasr City,
+                Cairo Governorate
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-6 col-sm-6 col-xs-12 col-xs-12">
+            <div class="popUp_social text-right">
+              <ul>
+                <li>
+                  <a
+                    href="https://www.linkedin.com/company/pixelspeakstudio/?viewAsMember=true"
+                    ><i class="fa fa-linkedin"></i>Linkedin</a
+                  >
+                </li>
+                <li>
+                  <a href="https://www.facebook.com/pixelpeakstudio"
+                    ><i class="fa fa-facebook-square"></i>Facebook</a
+                  >
+                </li>
+                <li>
+                  <a href="https://www.instagram.com/pixelpeak.studio/"
+                    ><i class="fa fa-instagram"></i>Instagram</a
+                  >
+                </li>
+              </ul>
             </div>
-        </section>
-        <!-- Page Banner -->
+          </div>
+        </div>
+      </div>
+    </div>
 
-        <!-- Services Section -->
-        <!-- <section class="service_section_2 commonSection">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-4 col-sm-6 col-md-4">
-                        <div class="icon_box_2 text-center">
-                            <h3>Modren Design</h3>
-                            <p>
-                                Phaseus sit amet tristique lorem ipsum is simply free text ligua donec culis leo sus cipit.
-                            </p>
-                            <div class="iconWrap">
-                                <i class="mei-settings"></i>
-                            </div>
-                            <a href="service_detail.html">discover more</a>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 col-md-4">
-                        <div class="icon_box_2 text-center">
-                            <h3>Digital products</h3>
-                            <p>
-                                Phaseus sit amet tristique lorem ipsum is simply free text ligua donec culis leo sus cipit.
-                            </p>
-                            <div class="iconWrap">
-                                <i class="mei-pie-chart"></i>
-                            </div>
-                            <a href="service_detail.html">discover more</a>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 col-md-4">
-                        <div class="icon_box_2 text-center">
-                            <h3>Marketing Strategy</h3>
-                            <p>
-                                Phaseus sit amet tristique lorem ipsum is simply free text ligua donec culis leo sus cipit.
-                            </p>
-                            <div class="iconWrap">
-                                <i class="mei-transfer"></i>
-                            </div>
-                            <a href="service_detail.html">discover more</a>
-                        </div>
-                    </div>
-                </div>
+    <!-- Page Banner -->
+    <section class="">
+      <div class="">
+        <img
+          src="images/services/Services-header-NEW-1.jpg"
+          alt=""
+          class="main-slider-one__img__about"
+        />
+      </div>
+    </section>
+
+    <section class="service_section commonSection">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h4 class="sub_title left">
+              As a new generation of digital artisans
+            </h4>
+            <h2 class="sec_title left" style="text-transform: capitalize;">
+              we bring a youthful perspective and multidisciplinary skillsets to
+              every project.
+            </h2>
+            <p class="sec_desc color_aaa left">
+              Whether designing intuitive interfaces or crafting strategic brand
+              narratives, <br />
+              our passionate team approaches each client collaboration as an
+              opportunity to pioneer new frontiers of online expression.
+            </p>
+          </div>
+        </div>
+        <div class="row" style="display: flex; justify-content: center">
+          <div class="">
+            <a class="common_btn quote_btn" href="quote.html"
+              ><span>Get Quote</span></a
+            >
+          </div>
+          <div class="col-5" style="margin-left: 30px">
+            <a class="common_btn quote_btn" href="portfolio.html"
+              ><span>Our Projects </span></a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+       <!-- service name slider -->
+       <section class=" serviceSectionSlider">
+        <div class=" team_slider_services  ">
+          <div class="singleTM">
+            <div class="detail_TM">
+              <h5><li>Brand Messaging</li></h5>
             </div>
-        </section> -->
-        <!-- Services Section -->
-
-        <!-- Services Section -->
-        <section class="service_section commonSection">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 text-center">
-                        <h4 class="sub_title left">As a new generation of digital artisans</h4>
-                        <h2 class="sec_title left ">we bring a youthful perspective and multidisciplinary <br>skillsets to every project.</h2>
-                        <p class="sec_desc color_aaa left">
-                            Whether designing intuitive interfaces or crafting strategic brand narratives, <br> our passionate team approaches each client collaboration as an opportunity to pioneer new frontiers of online expression.
-                        </p>
-                    </div>
-                </div>
-                <div class="row" style="display: flex;">
-                    <div class=""><a class="common_btn  quote_btn" href="quote.html"><span>Get Quote</span></a> </div>
-                <div class="col-5" style="margin-left: 30px;"> <a class="common_btn  quote_btn" href="portfolio.html"><span>Our Projects </span></a> </div>
-
-                </div>
-
-                <div>
-                    <p class="sec_title left service_title " style="margin-top: 30px;">Brand Messaging </p> 
-                    <p class="sec_title left service_title" >Naming Conception </p> 
-                    <p class="sec_title left service_title" >SEO/SEM </p> 
-                    <p class="sec_title left service_title" >Email Outreach </p> 
-                    <p class="sec_title left service_title" >Creative Campaigns/Content</p> 
-                    <p class="sec_title left service_title" >Digital Marketing Analysis and Plan</p> 
-                    <p class="sec_title left service_title" >Website Developments [ UX&UI]</p> 
-                </div>
-                <!-- <div class="row custom_column">
-                    <div class="col-lg-3 col-sm-4 col-md-3">
-                        <a href="service_detail.html" class="icon_box_1 text-center">
-                            <div class="flipper">
-                                <div class="front">
-                                    <i class="mei-web-design"></i>
-                                    <h3>Website Development</h3>
-                                </div>
-                                <div class="back">
-                                    <i class="mei-web-design"></i>
-                                    <h3>Website Development</h3>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-3 col-sm-4 col-md-3">
-                        <a href="service_detail.html" class="icon_box_1 text-center">
-                            <div class="flipper">
-                                <div class="front">
-                                    <i class="mei-computer-graphic"></i>
-                                    <h3>Graphic Designing</h3>
-                                </div>
-                                <div class="back">
-                                    <i class="mei-computer-graphic"></i>
-                                    <h3>Graphic Designing</h3>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-3 col-sm-4 col-md-3">
-                        <a href="service_detail.html" class="icon_box_1 text-center">
-                            <div class="flipper">
-                                <div class="front">
-                                    <i class="mei-development-1"></i>
-                                    <h3>Digital Marketing</h3>
-                                </div>
-                                <div class="back">
-                                    <i class="mei-development-1"></i>
-                                    <h3>Digital Marketing</h3>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-3 col-sm-4 col-md-3">
-                        <a href="service_detail.html" class="icon_box_1 text-center">
-                            <div class="flipper">
-                                <div class="front">
-                                    <i class="mei-development"></i>
-                                    <h3>SEo & Content Writing</h3>
-                                </div>
-                                <div class="back">
-                                    <i class="mei-development"></i>
-                                    <h3>SEo & Content Writing</h3>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-3 col-sm-4 col-md-3">
-                        <a href="service_detail.html" class="icon_box_1 text-center">
-                            <div class="flipper">
-                                <div class="front">
-                                    <i class="mei-app-development"></i>
-                                    <h3>App Development</h3>
-                                </div>
-                                <div class="back">
-                                    <i class="mei-app-development"></i>
-                                    <h3>App Development</h3>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div> -->
+          </div>
+          <div class="singleTM">
+            <div class="detail_TM">
+              <h5><li>Naming Conception</li></h5>
             </div>
-        </section>
-        <!-- Services Section -->
-
-        <!-- what we Do Section -->
-        <section class="commonSection what_wedo_2">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 text-center">
-                        <h4 class="sub_title">what we do</h4>
-                        <h2 class="sec_title">ARE YOU READY TO <br/> REIMAGINE WHAT'S POSSIBLE?</h2>
-                        <p class="sec_desc">
-                            We take the time to understand your brand's DNA, your target audience, and your goals. Then, armed with this knowledge, 
-                             we embark on a journey to craft a tailored strategy that takes your brand to new heights.
-                        </p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-4 col-sm-6 col-md-4">
-                        <h3 class="sec_title_2">Branding</h3>
-                        <div class="single_wedo">
-                            <img src="images/services/services---Branding.jpg" alt=""/>
-                            <div class="overlay_wedo">
-                                <a href="branding.html">Branding </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 col-md-4">
-                        <h3 class="sec_title_2">Digital Marketing</h3>
-                        <div class="single_wedo">
-                            <img src="images/services/Services---Digital-Marketing.jpg" alt=""/>
-                            <div class="overlay_wedo">
-                                <a href="digital.html">Digital Marketing</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 col-md-4">
-                        <h3 class="sec_title_2">Media Services</h3>
-                        <div class="single_wedo">
-                            <img src="images/services/Services---Media-Production.jpg" alt=""/>
-                            <div class="overlay_wedo">
-                                <a href="media.html">Media Services</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 col-md-4">
-                        <h3 class="sec_title_2">Software Services</h3>
-                        <div class="single_wedo">
-                            <img src="images/services/services---software.jpg" alt=""/>
-                            <div class="overlay_wedo">
-                                <a href="software.html">Software Services</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+          </div>
+          <div class="singleTM">
+            <div class="detail_TM">
+              <h5><li>SEO/SEM</li></h5>
             </div>
-        </section>
-        <!-- what we Do Section -->
-
-        <!-- FunFact Section -->
-        <!-- <section class="commonSection funfact">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-3 col-sm-6 col-md-3 noPadding BR">
-                        <div class="singlefunfact text-center">
-                            <h1 data-counter="8705" class="timer"><span class="countSpan">8</span>705</h1>
-                            <h3>Projects Completed</h3>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-6 col-md-3 noPadding BR">
-                        <div class="singlefunfact text-center">
-                            <h1 data-counter="480" class="timer"><span class="countSpan"></span>480</h1>
-                            <h3>Active Clients</h3>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-6 col-md-3 noPadding BR">
-                        <div class="singlefunfact text-center">
-                            <h1 data-counter="626" class="timer"><span class="countSpan"></span>626</h1>
-                            <h3>Cups of Coffee</h3>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-6 col-md-3 noPadding">
-                        <div class="singlefunfact text-center">
-                            <h1 data-counter="9774" class="timer"><span class="countSpan">9</span>774</h1>
-                            <h3>Happy Clients</h3>
-                        </div>
-                    </div>
-                </div>
+          </div>
+          <div class="singleTM">
+            <div class="detail_TM">
+              <h5><li>Email Outreach</li></h5>
             </div>
-        </section> -->
-        <!-- FunFact Section -->
-
-        <!-- Trust Clients Section -->
-        <section class="commonSection trustClient pb_120 mt_0">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="CL_content service_section_advantage">
-                            <img src="images/services/service-Collage.jpg" alt="">
-                            <div class="">
-                                <div class="row">
-                                    <div class="">
-                                    </div>
-                                    <div class="">
-                                        <div class="abci_content">
-                                            <h2></h2>
-                                            <p>
-                                                We were able to begin with the advantage of our expertise in creating high-quality projects across a variety of services including branding, digital marketing, and software development.
-                                            </p>
-                                             <a class="common_btn  quote_btn" href="portfolio.html"><span>Our Projects </span></a> 
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+          </div>
+          <div class="singleTM">
+            <div class="detail_TM">
+              <h5><li>Creative Campaigns/Content</li></h5>
             </div>
-        </section>
-        <!-- Trust Clients Section -->
-
-        <!-- Client Section -->
-        <!-- <section class="commonSection client">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 text-center">
-                        <h4 class="sub_title">our clients</h4>
-                        <h2 class="sec_title">they trust us</h2>
-                        <p class="sec_desc">
-                            We are committed to providing our customers with exceptional service while<br> offering our employees the best training.
-                        </p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="client_slider">
-                            <div class="singleClient">
-                                <a href="#">
-                                    <img src="images/client/1.png" alt=""/>
-                                </a>
-                            </div>
-                            <div class="singleClient">
-                                <a href="#">
-                                    <img src="images/client/2.png" alt=""/>
-                                </a>
-                            </div>
-                            <div class="singleClient">
-                                <a href="#">
-                                    <img src="images/client/3.png" alt=""/>
-                                </a>
-                            </div>
-                            <div class="singleClient">
-                                <a href="#">
-                                    <img src="images/client/4.png" alt=""/>
-                                </a>
-                            </div>
-                            <div class="singleClient">
-                                <a href="#">
-                                    <img src="images/client/5.png" alt=""/>
-                                </a>
-                            </div>
-                            <div class="singleClient">
-                                <a href="#">
-                                    <img src="images/client/1.png" alt=""/>
-                                </a>
-                            </div>
-                            <div class="singleClient">
-                                <a href="#">
-                                    <img src="images/client/2.png" alt=""/>
-                                </a>
-                            </div>
-                            <div class="singleClient">
-                                <a href="#">
-                                    <img src="images/client/3.png" alt=""/>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+          </div>
+          <div class="singleTM">
+            <div class="detail_TM">
+              <h5><li>Digital Marketing Analysis and Plan</li></h5>
             </div>
-        </section> -->
-        <!-- Client Section -->
-
-        <!-- Footer Section -->
-        <footer class="footer_1">
-            <div class="container">
-                <div class="row">
-                    <!-- <div class="col-lg-5 col-sm-6 col-md-5">
-                        <aside class="widget aboutwidget">
-                            <a href="#"><img src="images/Pixel Peak Logo 4-02.png" alt=""></a>
-                            <p>
-                                Welcome to our web design agency. 
-                            </p>
-                        </aside>
-                    </div> -->
-                    <div class="col-lg-4 col-sm-4 col-md-4">
-                        <aside class="widget contact_widgets contact_widgets__first">
-                            <h3 class="widget_title">Explore</h3>
-                            <p><b>Terms and Conditions</b></p>
-                            <p><b>Privacy Policy</b></p>
-                            <!-- <p>Sitemap</p> -->
-                            <!-- <p>Careers</p> -->
-                        </aside>
-                    </div>
-                    <div class="col-lg-4 col-sm-4 col-md-4">
-                        <aside class="widget contact_widgets">
-                            <h3 class="widget_title">contact</h3>
-                            <p>
-                                34 Ibn Al Nafeis, Al Manteqah as Sadesah, Nasr City,
-                               <br>
-                                Cairo Governorate
-                            </p>
-                            <!-- <p>P: 666 888 000</p>
-                            <p>E: <a href="#">needhelp@meipaly.com</a></p> -->
-                        </aside>
-                    </div>
-                    <div class="col-lg-3 col-sm-2 col-md-3">
-                        <aside class="widget social_widget">
-                            <h3 class="widget_title">social</h3>
-                            <ul>
-                                <li><a href="#"><i class="fa fa-linkedin" style="color: rgb(129, 129, 129);"></i>Linkedin</a></li>
-                                <li><a href="https://www.facebook.com/pixelpeakstudio"><i class="fa fa-facebook-square" style="color: rgb(129, 129, 129);"></i>Facebook</a></li>
-                                <li><a href="#"><i class="fa fa-instagram" style="color: rgb(129, 129, 129);"></i>Instagram</a></li>
-                            </ul>
-                        </aside>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-12 col-sm-12 text-center">
-                        <div class="copyright">
-                            <!-- © copyright 2019 by <a href="#">Layerdrops.com</a> -->
-                        </div>
-                    </div>
-                </div>
+          </div>
+          <div class="singleTM">
+            <div class="detail_TM">
+              <h5><li>Website Developments</li></h5>
             </div>
-        </footer>
-        <!-- Footer Section -->
+          </div>
+        </div>
+      </section>
+      
+    <section class="commonSection team">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h4 class="sub_title left">what we do</h4>
+            <h2 class="sec_title left" style="text-transform: capitalize;">
+              Are You Ready To 
+              Reimagine What's Possible?
+            </h2>
+            <p class="sec_desc left">
+              We take the time to understand your brand's DNA, your target
+              audience, and your goals. Then, armed with this knowledge, we
+              embark on a journey to craft a tailored strategy that takes your
+              brand to new heights.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="team_slider ">
+        <div class="singleTM">
+          <div class="tm_img">
+            <img src="images/services/services---Branding.jpg" alt="" />
+            <div class="tm_overlay">
+              <div class="team_social">
+                <h4><a href="branding.html">Branding </a></h4>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="singleTM">
+          <div class="tm_img">
+            <img
+              src="images/services/Services---Digital-Marketing.jpg"
+              alt=""
+            />
+            <div class="tm_overlay">
+              <div class="team_social">
+                <h4><a href="digital.html">Digital Marketing</a></h4>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="singleTM">
+          <div class="tm_img">
+            <img src="images/services/Services---Media-Production.jpg" alt="" />
+            <div class="tm_overlay">
+              <div class="team_social">
+                <h4><a href="media.html">Media Services</a></h4>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="singleTM">
+          <div class="tm_img">
+            <img src="images/services/services---software.jpg" alt="" />
+            <div class="tm_overlay">
+              <div class="team_social">
+                <h4><a href="software.html">Software Services</a></h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-        <!-- Bact To To -->
-        <a id="backToTop" href="#" class=""><i class="fa fa-angle-double-up"></i></a>
-        <!-- Bact To To -->
+    <section class="commonSection trustClient pb_120 mt_0">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div
+              class="CL_content service_section_advantage"
+              style="flex-wrap: wrap"
+            >
+              <img
+                src="images/services/service-Collage.jpg"
+                alt=""
+                class="work-showcase"
+              />
+              <div class="service-showcase">
+                <div class="row">
+                  <div class=""></div>
+                  <div class="">
+                    <div class="abci_content">
+                      <h2></h2>
+                      <p>
+                        We were able to begin with the advantage of our
+                        expertise in creating high-quality projects across a
+                        variety of services including branding, digital
+                        marketing, and software development.
+                      </p>
+                      <a class="common_btn quote_btn" href="portfolio.html"
+                        ><span>Our Projects </span></a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-        <!-- Include All JS -->
-        <script src="js/jquery.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/modernizr.custom.js"></script>
-        <script src="js/gmaps.js"></script>
-        <script src="https://maps.google.com/maps/api/js?key=AIzaSyDTPlX-43R1TpcQUyWjFgiSfL_BiGxslZU"></script>
-        <script src="js/jquery.themepunch.revolution.min.js"></script>
-        <script src="js/jquery.themepunch.tools.min.js"></script>
-        <!-- Rev slider Add on Start -->
-        <script src="js/extensions/revolution.extension.actions.min.js"></script>
-        <script src="js/extensions/revolution.extension.carousel.min.js"></script>
-        <script src="js/extensions/revolution.extension.kenburn.min.js"></script>
-        <script src="js/extensions/revolution.extension.migration.min.js"></script>
-        <script src="js/extensions/revolution.extension.parallax.min.js"></script>
-        <script src="js/extensions/revolution.extension.slideanims.min.js"></script>
-        <script src="js/extensions/revolution.extension.layeranimation.min.js"></script>
-        <script src="js/extensions/revolution.extension.navigation.min.js"></script>
-        <script src="js/extensions/revolution.extension.video.min.js"></script>
-        <!-- Rev slider Add on End -->
-        <script src="js/dlmenu.js"></script>
-        <script src="js/jquery.magnific-popup.js"></script>
-        <script src="js/mixer.js"></script>
-        <script src="js/jquery.easing.1.3.js"></script>
-        <script src="js/owl.carousel.js"></script>
-        <script src="js/slick.js"></script>
-        <script src="js/jquery.appear.js"></script>
-        <script src="js/theme.js"></script>
-        <!-- Include All JS -->
-    </body>
+    <footer class="footer_1">
+      <div class="container">
+        <div class="row" style="margin-bottom: 20px;">
+          <div class="col-sm-12 widget contact_widgets" style="margin-bottom: -20px;">
+            <h3 class="widget_title" style="margin-bottom: 0px;">STAY UPDATED</h3>
+            <p>subscribe to get the latest projects, vacancies, blogs and more..</p>
+          </div>
+          <div class="col-sm-12 widget"><hr/></div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12 col-sm-12 col-xs-12 col-xs-12">
+            <div class="popUp_social popUp_social_footer">
+              <ul>
+                <li>
+                  <a
+                    href="https://www.linkedin.com/company/pixelspeakstudio/?viewAsMember=true"
+                    target="_blank"
+                    ><i class="fa fa-linkedin"></i>Linkedin</a
+                  >
+                </li>
+                <li>
+                  <a href="https://www.facebook.com/pixelpeakstudio"
+                  target="_blank"
+                    ><i class="fa fa-facebook-square"></i>Facebook</a
+                  >
+                </li>
+                <li>
+                  <a href="https://www.instagram.com/pixelpeak.studio/"
+                  target="_blank"
+                    ><i class="fa fa-instagram"></i>Instagram</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-sm-4 col-md-4" style="padding-left: 0px;">
+            <aside class="widget contact_widgets contact_widgets__first">
+              <h3 class="widget_title">EXPLORE</h3>
+              <p>
+                <b> <a href="privacy.html" target="_blank">Privacy Policy</a> </b>
+              </p>
+              <p>
+                <b> <a href="careers.html" target="_blank">Careers</a> </b>
+              </p>
+            </aside>
+          </div>
+          <div class="col-lg-4 col-sm-4 col-md-4">
+            <aside class="widget contact_widgets">
+              <h3 class="widget_title">CONTACT</h3>
+              <p>Info@pixelpeakstudio.net</p>
+              <p>Careers@pixelpeakstudio.net</p>
+              <p>01006344123</p>
+              <p> 34 Ibn Al Nafeis, Al Manteqah as Sadesah, Nasr City, Cairo
+                Governorate</p>
+            </aside>
+          </div>
+          <div class="col-lg-4 col-sm-4 col-md-4" style="display: flex;justify-content: center;">
+            <aside class="widget contact_widgets">
+              <h3 class="widget_title">INTERESTED</h3>
+              <p>
+                <a href="quote.html" target="_blank">Get Quote</a>
+              </p>
+              <p><a href="" download="profile.pdf">Company Profile</a></p>
+            </aside>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <a id="backToTop" href="#" class=""
+      ><i class="fa fa-angle-double-up"></i
+    ></a>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/modernizr.custom.js"></script>
+    <script src="js/gmaps.js"></script>
+    <script src="https://maps.google.com/maps/api/js?key=AIzaSyDTPlX-43R1TpcQUyWjFgiSfL_BiGxslZU"></script>
+    <script src="js/jquery.themepunch.revolution.min.js"></script>
+    <script src="js/jquery.themepunch.tools.min.js"></script>
+    <!-- Rev slider Add on Start -->
+    <script src="js/extensions/revolution.extension.actions.min.js"></script>
+    <script src="js/extensions/revolution.extension.carousel.min.js"></script>
+    <script src="js/extensions/revolution.extension.kenburn.min.js"></script>
+    <script src="js/extensions/revolution.extension.migration.min.js"></script>
+    <script src="js/extensions/revolution.extension.parallax.min.js"></script>
+    <script src="js/extensions/revolution.extension.slideanims.min.js"></script>
+    <script src="js/extensions/revolution.extension.layeranimation.min.js"></script>
+    <script src="js/extensions/revolution.extension.navigation.min.js"></script>
+    <script src="js/extensions/revolution.extension.video.min.js"></script>
+    <!-- Rev slider Add on End -->
+    <script src="js/dlmenu.js"></script>
+    <script src="js/jquery.magnific-popup.js"></script>
+    <script src="js/mixer.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/owl.carousel.js"></script>
+    <script src="js/slick.js"></script>
+    <script src="js/jquery.appear.js"></script>
+    <script src="js/theme.js"></script>
+    <!-- <script src="js/main.js"></script> -->
+    <!-- Include All JS -->
+  </body>
 </html>

@@ -117,3 +117,23 @@
 .slick-arrow.slick-hidden {
     display: none;
 }
+.slick-arrow{
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    z-index: 100;
+    border-radius: 100%;
+    border: 1px solid #fff;
+    width: 40px;
+    height: 40px;
+    background-image: linear-gradient(#00c1bc , #643ca5);
+    color: #fff;
+}
+.slick-prev{
+left: 30px;
+
+}
+
+.slick-next{
+    right: 30px;
+}

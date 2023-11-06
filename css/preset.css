@@ -92,6 +92,11 @@ ul li{
 /*------------------------------------------------------------------------------
 / 4. Button Settings
 ------------------------------------------------------------------------------*/
+@media (max-width: 768px) {
+    .common_btn{
+        padding: 28px 15px !important;
+    }
+}
 .common_btn{
     border: none;
     font-size: 16px;
@@ -114,8 +119,17 @@ ul li{
     -o-transition: all 0.4s ease-out;
     font-family: 'Degular-Bold';
 }
+
 .quote_btn{
-    background: linear-gradient(#00c1bc , #643ca5);
+    background: linear-gradient(#00c1bc , #643ca5 100px);
+    border: 1px solid #fff;
+    padding-inline: 0px;
+    /* width: 200px; */
+    text-wrap: nowrap;
+    min-width: 200px;
+}
+.subWork_btns{
+    margin: 50px;
 }
 .common_btn span {
     position: relative;
@@ -123,7 +137,7 @@ ul li{
 }
 .common_btn:after {
     content: "";
-    width: 4px;
+    width: 0px;
     height: 100%;
     position: absolute;
     right: 0;
@@ -159,7 +173,7 @@ ul li{
 / 5. Section Settings
 ------------------------------------------------------------------------------*/
 .commonSection{
-    padding: 120px 0;
+    padding: 50px 0;
     position: relative;
 }
 .commonSection .container{
@@ -173,7 +187,7 @@ ul li{
     text-align: left;
 }
 .sub_title{
-    font-size: 12px;
+    font-size: 18px;
     line-height: .8;
     font-weight: 400;
     color: #818181;
@@ -183,18 +197,19 @@ ul li{
     font-family: "DegularDisplay-Regular";
 }
 .sec_title{
-    font-size: 50px;
-    line-height: 60px;
+    font-size: 40px;
+    /* line-height: 60px; */
     font-weight: bold;
     color: #000;
     letter-spacing: 2px;
     text-transform: uppercase;
-    margin: 0 0 25px;
+    margin: 0 0 20px;
     font-family: 'Degular-Bold';
 }
 .sec_title_2{
     font-family: 'Degular-Bold';
     font-size: 24px;
+    margin: 0;
 }
 .sec_title_contact{
     font-size: 30px;
@@ -204,9 +219,10 @@ ul li{
     margin-top: 0px;
     font-size: 30px !important;
     line-height: 40px !important;
+    color: #1F1837;
 }
 .sec_title__about{
-    font-size: 22px;
+    font-size: 20px;
     color: #000;
     letter-spacing: 2px;
     margin: 0 20px 25px 0px;
@@ -224,9 +240,9 @@ ul li{
     color: #000;
 }
 .sec_desc{
-    margin: 0 0 54px;
+    margin: 0 0 20px;
     font-family: "DegularDisplay-Regular";
-    font-size: 24px;
+    font-size: 22px;
 
 }
 .color_aaa{
